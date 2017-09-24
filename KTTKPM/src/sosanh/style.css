@@ -1,7 +1,7 @@
 body{
     background-color: #cdcdcd;
     width: 70%;
-    margin: 0px auto;
+    margin: auto;
 }
 .header{
     height: 70px;
@@ -9,16 +9,15 @@ body{
     width: 100%;
 }
 .content{
-    /* background-color: red; */
-    min-height: 600px
+    background-color: red;
+    min-height: 600px;
+    background: #21B1CE;    
 }
 .menu{
     width: 30%; 
     /* max-width: 250px; */
-    min-height: 600px;
-    background: #21B1CE;
+    
     float: left;
-    /* height: 100% */
 }
 .body{
     background: white;
@@ -155,41 +154,39 @@ ul {
 }
 .luottruycap{
     display: block;
-    bottom: 40px;
+    bottom: 0px;
     position: absolute;
     float: left;
     color: #ddd;
     display: block;
-    margin: 10px
+    margin: 5px
 }
 .footer li a {
     color: black;
     padding: 0px
 }
-
-.wrap_chat{
-    min-height: 300px;
-    position: absolute;
-    bottom: 0px;
-    right: 0px;
-    background: white ;
-    border: 1px groove #cdcdcd;
-    min-width: 200px
+p{
+    margin:5px
 }
-.header_chat{
-    /* position: relative;
-    top:10px;
-    left: 10px; */
-    display: block;
-    background: #64B964;
-    padding: 5px;
-    color: white
+button{
+    margin-right: 10px
 }
-.wrap_input{
-    bottom: 10px;
-    left: 10px;
-    position: absolute;
+.wap_order{
+    width: 50%;
+    float: left;
 }
-.input_text{
-    max-width: 60%;
+.wrap_body_footer{
+    width: 100%;
+    float: left;
+}
+.wrap_thongso{
+    width: 50%;
+    float: left;
+}
+.wrap_comment{
+    width: 50%;
+    float: left;
+}
+h4{
+    margin: 10px;
 }
