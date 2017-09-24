@@ -1,0 +1,194 @@
+body{
+    background-color: #cdcdcd;
+    width: 70%;
+    margin: 0px auto;
+}
+.header{
+    height: 70px;
+    background-color: blue;
+    width: 100%;
+}
+.content{
+    /* background-color: red; */
+    min-height: 600px
+}
+.menu{
+    width: 30%; 
+    /* max-width: 250px; */
+    min-height: 600px;
+    background: #21B1CE;
+    float: left;
+    /* height: 100% */
+}
+.body{
+    background: white;
+    width: 70%;
+    min-height: 600px;
+    float: left
+}
+.item_menu_left a{
+    text-decoration: none;
+    color: #fff;
+    
+}
+.item_menu_left{
+    font-weight: bold;
+    list-style-type: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: groove 1px;
+}
+
+a:active{
+    color:#fff
+}
+
+.item_menu_left a:hover{
+    color: black;
+    font-size: 20px;
+}
+
+a:visited{
+    color: #fff
+}
+
+a{
+    padding:0px 10px;
+    text-decoration: none;
+}
+.img_logo{
+    height: 15px;
+    width: 30px;
+} 
+.wrap_search{
+    float: right;
+    margin-top: 20px;
+    border-radius: 2px;
+}
+.txt_search{
+    background: #fff;
+    border: 0px;
+    height: 25px;
+    padding: 0px;
+    padding-left: 10px;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    max-width: 150px;
+}
+.btn_search{
+    background: #fff;
+    border: 0px;
+    height: 25px;
+    margin-left: -5px;
+    border-left: 1px groove;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px
+}
+.txt_search:focus{
+    border: #fff
+}
+.logo_site{
+    height: 60px;
+    width: 40px;
+    margin: 5px 0px 5px 10px;
+    float: left
+}
+.footer{
+    width: 50%;
+    min-height: 100px;
+    float: left;
+    background: #fff;
+    margin: 0px
+    /* margin-right: 1px;cx */
+}
+.footer_header{
+    background: #777;
+    font-size: 20px;
+    width: 100%;
+    float: left;
+    text-align: center;
+    font-weight: 700;
+    color: #fff;
+    padding: 5px 0px;
+}
+.wrap_footer{
+    width: 100%;
+    background: #fff;
+    /* height: 800px; */
+
+}
+li{
+    padding: 3px 0px;
+}
+ul {
+    padding-top: 30px
+}
+.wrap_item{
+    width: 33%;
+    float: left;
+    text-align: center;
+    padding: 20px 0px;
+}
+.img_item{
+    width: 50%;
+}
+.name_item{
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+    
+}
+.cost_item{
+    text-align: center;
+    display: block;
+    color: black;
+    
+}
+.title_item{
+    display: block;
+    background:#cdcdcd;
+    font-weight: bold;
+    color: red;
+}
+.luottruycap{
+    display: block;
+    bottom: 40px;
+    position: absolute;
+    float: left;
+    color: #ddd;
+    display: block;
+    margin: 10px
+}
+.footer li a {
+    color: black;
+    padding: 0px
+}
+
+.wrap_chat{
+    min-height: 300px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    background: white ;
+    border: 1px groove #cdcdcd;
+    min-width: 200px
+}
+.header_chat{
+    /* position: relative;
+    top:10px;
+    left: 10px; */
+    display: block;
+    background: #64B964;
+    padding: 5px;
+    color: white
+}
+.wrap_input{
+    bottom: 10px;
+    left: 10px;
+    position: absolute;
+}
+.input_text{
+    max-width: 60%;
+}

@@ -1,0 +1,38 @@
+body{
+
+}
+
+.wrap{
+    width: 50%;
+    margin: 50px auto;
+
+}
+
+.label{
+    background: blue;
+    float: left;
+    color: #fff;
+    padding: 10px 0px;
+    width: 100%;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.input{
+    width: 100%;
+    padding: 8px 0px;
+    margin: 10px 0px;
+    border: 1px groove #cdcdcd;
+    border-radius: 2px;
+}
+.btn{
+    width: 48%;
+    float: left;
+    padding: 10px;
+    background: #fa6428;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 2px;
+    border: 0px;
+    margin-left: 10px
+}
