@@ -15,7 +15,7 @@ body{
 .menu{
     width: 30%; 
     /* max-width: 250px; */
-    min-height: 600px;
+    min-height: 615px;
     background: #21B1CE;
     float: left;
     /* height: 100% */
@@ -23,7 +23,7 @@ body{
 .body{
     background: white;
     width: 70%;
-    min-height: 600px;
+    /* min-height: 400px; */
     float: left
 }
 .item_menu_left a{

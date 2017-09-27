@@ -1,0 +1,31 @@
+.body {
+    background: red;
+    width: 70%;
+    margin: auto;
+}
+.header{
+    width: 100%;
+    background: green;
+    padding: 10px 0px;
+}
+.xin_chao{
+    float: right;
+    margin-right: 10px;
+    color: #fff;
+}
+.slogan{
+    margin-left: 10px;
+    font-size: 20px;
+    color: #fff;
+}
+
+.left{
+    float: left;
+    background: #cdcdcd;
+    width: 25%;
+}
+.content{
+    /* background: red; */
+    float: left;
+    width: 75%;
+}
