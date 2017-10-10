@@ -60,3 +60,37 @@ li a{
 a:hover{
     color:#fa6428
 }
+th{
+    background: #cdcdcd;
+    color: white;
+    font-size: 18px
+}
+label{
+    display: block;
+    margin-top: 10px;
+}
+select{
+    margin:10px 0px;
+    min-width: 500px
+}
+input{
+    min-width: 500px;
+    border-radius: 2px;
+    height: 20px;
+    border: 1px groove black ;
+    background: white;
+}
+select{
+    min-width: 500px;
+    border-radius: 2px;
+    height: 25px;
+    border: 1px groove black ;
+}
+textarea{
+    min-width: 500px;
+    min-height: 150px;
+}
+button{
+    min-width: 100px;
+    margin-bottom: 20px
+}

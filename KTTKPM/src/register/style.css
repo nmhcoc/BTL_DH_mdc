@@ -9,13 +9,13 @@ body{
 }
 
 .label{
-    background: blue;
     float: left;
-    color: #fff;
+    color: black;
     padding: 10px 0px;
     width: 100%;
     font-size: 25px;
     font-weight: bold;
+    margin-bottom: 20px
 }
 
 .input{
@@ -35,4 +35,7 @@ body{
     border-radius: 2px;
     border: 0px;
     margin-left: 10px
+}
+.btn-reset{
+    background: #cdcdcd
 }

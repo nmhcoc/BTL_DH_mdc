@@ -60,3 +60,8 @@ li a{
 a:hover{
     color:#fa6428
 }
+th{
+    background: #cdcdcd;
+    color: white;
+    font-size: 18px
+}

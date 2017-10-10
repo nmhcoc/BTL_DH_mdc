@@ -9,15 +9,18 @@
 </head>
 <body>
     <div class="wrap">
-        <span class="label">
-            <span style="margin-left: 30px">Đăng ký thành viên</span>
-        </span>
+        <span class="label">Đăng ký thành viên</span>
         <div class="body">
-            <input type="text" class="input" placeholder="Tên đăng nhập"/>
-            <input type="password" class="input" placeholder="Mật khẩu"/>
-            <input type="password" class="input" placeholder="Nhập lại mật khẩu"/>
-            <input type="text" class="input" placeholder="Họ tên"/>
-            <input type="date" class="input" placeholder="Ngày sinh"/>
+            <label for="" style="margin-top: 20px">Tên đăng nhập</label>
+            <input type="text" class="input"/>
+            <label for="">Mật khẩu</label>
+            <input type="password" class="input"/>
+            <label for="">Xác nhận mật khẩu</label>
+            <input type="password" class="input"/>
+            <label for="">Họ tên</label>
+            <input type="text" class="input"/>
+            <label for="">Ngày sinh</label>
+            <input type="date" class="input"/>
             <label for="">Giới tính</label>
             <select class="input">
                 <option value="">Nam</option>
@@ -25,13 +28,19 @@
                 <option value="">Chưa rõ</option>
             </select>
             <label for="">Số điện thoại</label>
-            <input type="text" class="input"/>
+            <input type="tel" class="input"/>
+            <label for="">Email</label>
+            <input type="email" class="input"/>
             <label for="">Địa chỉ</label>
             <input type="text" class="input"/>
         </div>
         <div>
-            <button class="btn">Làm lại</button>
-            <button class="btn">Đăng ký</button>
+            <button class="btn btn-reset"
+                
+            >Làm lại</button>
+            <button class="btn"
+                onclick="alert('Thành công!');window.location = '../../index.html'"
+            >Đăng ký</button>
         </div>
     </div>
 </body>

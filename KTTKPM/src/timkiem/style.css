@@ -192,3 +192,7 @@ ul {
 .input_text{
     max-width: 60%;
 }
+.paging{
+    color: black;
+    background: red;
+}

@@ -1,7 +1,6 @@
 .body {
     background: red;
-    width: 70%;
-    margin: auto;
+    width: 100%;
 }
 .header{
     width: 100%;
@@ -23,9 +22,70 @@
     float: left;
     background: #cdcdcd;
     width: 25%;
+    min-height: 730px;
 }
 .content{
     /* background: red; */
     float: left;
     width: 75%;
+}
+table , tr,td {
+    border: 1px groove #cdcdcd;
+}
+table {
+    width: 100%
+}
+.wrap-search{
+    margin: 10px
+}
+.phan_trang{
+    padding: 10px 0px
+}
+.phan_trang a {
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 5px
+}
+label{
+    display: block;
+    margin-top: 10px;
+}
+select{
+    margin:10px 0px;
+    min-width: 500px
+}
+input{
+    min-width: 500px;
+    border-radius: 2px;
+    height: 20px;
+    border: 1px groove black ;
+    background: white;
+}
+select{
+    min-width: 500px;
+    border-radius: 2px;
+    height: 25px;
+    border: 1px groove black ;
+}
+textarea{
+    min-width: 500px;
+    min-height: 150px;
+}
+button{
+    min-width: 100px;
+    margin-bottom: 20px
+}
+li{
+    list-style-type: none;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none
+}
+li a{
+    text-decoration: none
+}
+a:hover{
+    color:#fa6428
 }
