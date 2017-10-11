@@ -60,29 +60,37 @@ li a{
 a:hover{
     color:#fa6428
 }
-.wrap_chat{
-    min-height: 300px;
-    position: fixed;
-    bottom: 0px;
-    right: 0px;
-    background: white ;
-    border: 1px groove #cdcdcd;
-    min-width: 200px
+th{
+    background: #cdcdcd;
+    color: white;
+    font-size: 18px
 }
-.header_chat{
-    /* position: relative;
-    top:10px;
-    left: 10px; */
+label{
     display: block;
-    background: #64B964;
-    padding: 5px;
-    color: white
+    margin-top: 10px;
 }
-.wrap_input{
-    bottom: 10px;
-    left: 10px;
-    position: absolute;
+select{
+    margin:10px 0px;
+    min-width: 500px
 }
-.input_text{
-    max-width: 60%;
+input{
+    min-width: 500px;
+    border-radius: 2px;
+    height: 20px;
+    border: 1px groove black ;
+    background: white;
+}
+select{
+    min-width: 500px;
+    border-radius: 2px;
+    height: 25px;
+    border: 1px groove black ;
+}
+textarea{
+    min-width: 500px;
+    min-height: 150px;
+}
+button{
+    min-width: 100px;
+    margin-bottom: 20px
 }
